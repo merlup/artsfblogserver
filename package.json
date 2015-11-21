@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "start": "node server.js"
+    "start": "supervisor server.js"
   },
   "dependencies": {
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "supervisor": "*"
   },
   "engines": {
     "node": "0.12.7"

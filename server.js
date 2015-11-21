@@ -30,10 +30,20 @@ app.get('/', function (req, res) {
 app.get('/list', function (req, res) {
   res.json([{
   	id: 1,
-  	name: 'test1'
+  	name: 'test1',
+    url: 'http://www.artsfblog.com/uploads/4/9/9/3/49933823/s738677920177686506_p120_i1_w640.jpeg'
   },{
   	id: 2,
-  	name: 'test2'
+  	name: 'test2',
+    url: 'http://www.artsfblog.com/uploads/4/9/9/3/49933823/s738677920177686506_p121_i1_w561.jpeg'
+  },{
+    id: 3,
+    name: 'test3',
+    url: 'http://www.artsfblog.com/uploads/4/9/9/3/49933823/s738677920177686506_p118_i1_w640.jpeg'
+  },{
+    id: 4,
+    name: 'test4',
+    url: 'http://www.artsfblog.com/uploads/4/9/9/3/49933823/s738677920177686506_p122_i1_w640.jpeg'
   }]);
 });
   
